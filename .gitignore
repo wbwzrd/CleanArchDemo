@@ -1,0 +1,74 @@
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+*.csproj.*.cache
+
+# .NET Core and NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# User-specific IDE settings
+*.idea/
+*.vscode/
+*.vsconfig
+
+# Sensitive data
+*.config
+*.secrets.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Rider (JetBrains) specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+resharper-host/
+*.ReSharper*
+_ReSharper*/
+*.DotSettings
+*.DotSettings.user
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*docs
+*Temp
+script.sql
+.rules
+GEMINI.md
+CLAUDE.md
